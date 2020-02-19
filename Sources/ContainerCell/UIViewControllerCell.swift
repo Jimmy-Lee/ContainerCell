@@ -12,9 +12,9 @@ public class UIViewControllerCell<Content: UIViewController>: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
-    /// A generic UIView content.
+    /// A generic `UIViewController` content.
     ///
-    /// When you needs to configure content, you can either access this property or assign a new one.
+    /// When you need to configure content, you can either access this property or assign a new one.
     public var content: Content = .init() {
         didSet {
             contentView.subviews.forEach { $0.removeFromSuperview() }
@@ -59,7 +59,7 @@ extension UIViewControllerCell {
     /// A convenient method to create instance of `ContainerCell` with a `Content` inside.
     ///
     /// This convenient method may not be sufficient most of the time.
-    /// For example, if has custom init function, you should use dedicated init function to set up cell.content
+    /// For example, if `Content` has custom init function, you should use dedicated init function to set up `cell.content`
     ///
     /// - Parameters:
     ///   - tableView: The tableView to dequeue cell in.

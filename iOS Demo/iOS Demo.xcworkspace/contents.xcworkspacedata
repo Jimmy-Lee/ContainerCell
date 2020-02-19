@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:/Users/prime/source/github/ContainerCell/iOS Demo/iOS Demo.xcodeproj">
+      location = "container:iOS Demo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:..">

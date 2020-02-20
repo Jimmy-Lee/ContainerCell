@@ -4,7 +4,7 @@ Wrap a UIView/UIViewController inside a container view.
 
 ## What is this?
 
-A view may appear on its own, or put inside container like UITableViewCell. When you want to reuse your View without creating a dedicated UITableView subclass, you can do this with ContainerCell.
+A view may appear on its own, or put inside container like UITableViewCell. When you want to reuse your View without creating a dedicated UITableViewCell subclass, you can do this with ContainerCell.
 
 Now it offers wrapping UIView/UIViewController inside UITableViewCell
 
